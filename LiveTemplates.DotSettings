@@ -1,0 +1,182 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6405EA98C5AA4F49BF936381B4C2F347/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6405EA98C5AA4F49BF936381B4C2F347/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6405EA98C5AA4F49BF936381B4C2F347/Categories/=Pattern/@EntryIndexedValue">Pattern</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6405EA98C5AA4F49BF936381B4C2F347/Description/@EntryValue">Dispose Pattern</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6405EA98C5AA4F49BF936381B4C2F347/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6405EA98C5AA4F49BF936381B4C2F347/Field/=CLASS/Expression/@EntryValue">typeName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6405EA98C5AA4F49BF936381B4C2F347/Field/=CLASS/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6405EA98C5AA4F49BF936381B4C2F347/Field/=CLASS/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6405EA98C5AA4F49BF936381B4C2F347/Field/=MEMBER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6405EA98C5AA4F49BF936381B4C2F347/Field/=MEMBER/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6405EA98C5AA4F49BF936381B4C2F347/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6405EA98C5AA4F49BF936381B4C2F347/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6405EA98C5AA4F49BF936381B4C2F347/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6405EA98C5AA4F49BF936381B4C2F347/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6405EA98C5AA4F49BF936381B4C2F347/Shortcut/@EntryValue">dispose</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6405EA98C5AA4F49BF936381B4C2F347/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6405EA98C5AA4F49BF936381B4C2F347/Text/@EntryValue">public void Dispose()&#xD;
+{&#xD;
+    Dispose(true);&#xD;
+    System.GC.SuppressFinalize(this);&#xD;
+}&#xD;
+&#xD;
+/// &lt;summary&gt;&#xD;
+/// http://www.bluebytesoftware.com/blog/2005/04/08/DGUpdateDisposeFinalizationAndResourceManagement.aspx&#xD;
+/// &lt;/summary&gt;&#xD;
+protected virtual void Dispose(bool disposing)&#xD;
+{&#xD;
+    if (!disposed)&#xD;
+    {&#xD;
+        if (disposing)&#xD;
+        {&#xD;
+            if ($MEMBER$ != null)&#xD;
+            {&#xD;
+                $MEMBER$.Dispose();&#xD;
+                $MEMBER$ = null;&#xD;
+            }&#xD;
+        }&#xD;
+&#xD;
+        disposed = true;&#xD;
+    }&#xD;
+}&#xD;
+&#xD;
+~$CLASS$()&#xD;
+{&#xD;
+    Dispose(false);&#xD;
+}&#xD;
+&#xD;
+private bool disposed;</s:String>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</wpf:ResourceDictionary>
